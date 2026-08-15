@@ -1,2 +1,22 @@
+[project]
+name = "face-recognition"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "fcas",email = "f3l1nux@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "face-recognition-models (>=0.3.0,<0.4.0)",
+    "click (>=8.4.2,<9.0.0)",
+    "dlib (>=20.0.1,<21.0.0)",
+    "numpy (>=2.5.2,<3.0.0)",
+    "pillow (>=12.3.0,<13.0.0)",
+    "scipy (>=1.18.0,<2.0.0)"
+]
+
+
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
